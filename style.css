@@ -41,12 +41,17 @@ form {
 
 .content>.column {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 10px;
     border: 2px solid red;
 }
 
-.name {
-    border: 2px solid black;
-    background:rgba(0, 0, 190, 0.1)
+.name,.registration_no{
+    width: 100%;
 }
+.name>input, .registration_no>input{
+    flex: 1;
+    padding: 5px 10px;
+}
+
