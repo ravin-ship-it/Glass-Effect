@@ -46,4 +46,7 @@ form {
     border: 2px solid red;
 }
 
-.name {}
+.name {
+    border: 2px solid black;
+    background:rgba(0, 0, 190, 0.1)
+}
